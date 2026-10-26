@@ -4,7 +4,7 @@ Waste Segregation using Convolutional Neural Networks (CNNs)
 
 An AI-powered automated waste material classification system designed to streamline waste segregation, improve recycling efficiency, and reduce environmental pollution. This repository contains a deep learning solution that classifies common waste materials into distinct categories using Convolutional Neural Networks (CNNs).
 
-##Project Overview
+## Project Overview
 
 Improper waste disposal contributes heavily to environmental degradation and inefficient recycling processes. Manual sorting is labor-intensive, error-prone, and costly. This project addresses these challenges by automating waste sorting using deep learning, providing an automated solution suitable for:
 • Smart Recycling Bins
@@ -23,7 +23,7 @@ The dataset used in this project is publicly available on Kaggle and contains ap
 • Other
 Images are organized into class-specific folders without further subcategorization (e.g., the Food_Waste folder contains various organic items like coffee grounds and fruit peels grouped together).
 
-## roject Pipeline
+## Project Pipeline
 
 The workflow is implemented sequentially within a Jupyter Notebook and covers the following core phases:
 
@@ -54,7 +54,7 @@ The workflow is implemented sequentially within a Jupyter Notebook and covers th
 • Pipeline integration using transformations (rotation, scaling, flipping) to artificially expand dataset variety and improve model generalization.
 
 
-Key Insights & Outcomes
+## Key Insights & Outcomes
 
 • Detailed analysis of class balance/imbalance across the 7,000 images.
 • Model evaluation graphs demonstrating training vs. validation loss and accuracy curves over the epochs.
